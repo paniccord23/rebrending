@@ -313,6 +313,15 @@ footer {
     padding-top: 26px;
     padding-left: 5%;
   }
+  .ink-post {
+    position: relative;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 149%;
+    --container-width: 79%;
+    width: 32vw;
+    height: 45vw;
+    top: 95px;
+  }
 }
 
 
@@ -469,30 +478,31 @@ footer {
     top: 146px;
   }
   .card2 {
-    height: 950px;
+    height: 840px;
+    }
   }
-  .more-post {
-    padding-top: 45px;
-    height: 700px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .wall-1 img{
+    width: 100vw;
   }
-  .poster {
-    width: 32vw;
-    height: 41vw;
+
+
+  .ink {
+    width: 40vw;
   }
-  .space-pic {
-    left: -1%;
-    margin-top: 17px;
-    width: 48vw;
-    height: 32vw;
+  .ink p {
+    margin-top: 20px;
   }
-  .line {
-    width: 96px;
+  .ink h2 {
+    margin-top: 25px;
   }
-  .about-pr {
-    padding-left: 22%;
+  .ink-post {
+    position: relative;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 149%;
+    --container-width: 79%;
+    width: 26vw;
+    height: 36vw;
+    top: 146px;
   }
 }
 @media screen and (min-width: 1440px) {
