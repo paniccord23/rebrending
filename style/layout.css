@@ -120,9 +120,7 @@ p {
   justify-content: center;
   align-items: baseline;
 }
-.bag-pic {
-  width: 122vw;
-}
+
 .poster {
   width: 70vw;
 }
@@ -133,12 +131,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.space-pic {
-  width: 103vw;
-  margin-bottom: 20px;
-  position: relative;
-  left: -7%;
-}
+
 .pict-b {
   width: 133vw;
   margin-top: 80px;
@@ -226,7 +219,7 @@ footer {
     font-size: 14px;
   }
   p {
-    font-size: 22px;
+    font-size: 18px;
     width: 358px;
   }
   .left {
@@ -245,6 +238,9 @@ footer {
     right: -47%;
     width: 40vw;
     display: unset;
+  }
+  .card2 p {
+    width: 399px;
   }
   .pict-b {
     position: relative;
@@ -297,21 +293,16 @@ footer {
     top: 146px;
   }
   .card2 {
-    height: 950px;
+    height: 600px;
   }
-  .more-post {
-    flex-direction: row;
-    align-items: baseline;
-    height: 620px;
-  }
-  .poster {
-    width: 37vw;
-    margin-right: 3%;
-  }
-  .space-pic {
-    width: 58vw;
-    padding-left: 33px;
-    height: 40vw;
+  .blank3 {
+    position: relative;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 149%;
+    --container-width: 103%;
+    width: 43vw;
+    height: 41vw;
+    top: 42px;
   }
   .right {
     padding-top: 40px;
@@ -345,10 +336,18 @@ footer {
   .wall-1 img{
     width: 100vw;
   }
+  .logo-it img {
+    width: 78vw;
+  }
+  .video-inf {
+    padding-left: 5%;
+    height: 400px;
+    padding-top: 60px;
+  }
+  .video-inf p {
+    width: 397px;
+  }
 }
-
-
-
 
 @media screen and (min-width: 1024px) {
 
@@ -466,6 +465,9 @@ footer {
     .todo {
       width: 457px;
     }
+    .card2 p {
+    width: 566px;
+  }
     /*картинка справа  */
     .right {
       display: flex;
@@ -541,10 +543,10 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
+    height: 700px;
   }
   .logo-it img {
-    width: 50%;
+    width: 56vw;
   }
   .post4 {
     margin-right: 8%
@@ -556,6 +558,9 @@ footer {
     padding-top: 80px;
     height: 500px;
     padding-left: 5%;
+  }
+  .video-inf p {
+    width: 568px;
   }
 }
 
