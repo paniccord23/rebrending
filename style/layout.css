@@ -46,7 +46,13 @@ h1 {
 h2 {
   font-family: "impact";
   font-weight: bold;
-    font-size: 24px;
+  font-size: 30px;
+  padding-bottom: 3%
+}
+h5 {
+  font-family: "impact";
+  font-weight: bold;
+  font-size: 20px;
 }
 main {
   background-color: #f0f0f0;
@@ -174,7 +180,21 @@ footer {
 .card2 {
   height: 950px;
 }
-
+.video {
+  display: flex;
+  justify-content: center;
+}
+.orange {
+  background-color: #FE5617;
+  color: #fff;
+}
+.orange p {
+  color: #fff;
+}
+.video iframe {
+  width:860px;
+  height: 515px;
+}
 @media screen and (min-width: 320px;) {
   .first {
     height: 24vw;
@@ -321,6 +341,9 @@ footer {
     width: 32vw;
     height: 45vw;
     top: 95px;
+  }
+  .wall-1 img{
+    width: 100vw;
   }
 }
 
@@ -480,12 +503,9 @@ footer {
   .card2 {
     height: 840px;
     }
-  }
   .wall-1 img{
     width: 100vw;
   }
-
-
   .ink {
     width: 40vw;
   }
@@ -504,7 +524,50 @@ footer {
     height: 36vw;
     top: 146px;
   }
+  .orange {
+    height: 600px;
+  }
+  .blank3 {
+    position: relative;
+    right: calc((100vw - var(--container-width)) / 2);
+    --container-width: 149%;
+    --container-width: 103%;
+    width: 43vw;
+    height: 41vw;
+    top: 42px;
+  }
+  .logo-it {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+  }
+  .logo-it img {
+    width: 50%;
+  }
+  .post4 {
+    margin-right: 8%
+  }
+  .video {
+    height: 700px;
+  }
+  .video-inf {
+    padding-top: 80px;
+    height: 500px;
+    padding-left: 5%;
+  }
 }
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1440px) {
   .left  {
     height: 800px;
@@ -539,4 +602,5 @@ footer {
     height: 40vw;
     z-index: 2;
   }
+
 }
