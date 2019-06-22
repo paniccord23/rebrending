@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "impact";
+  src: url(impact.ttf),
+          url(impact.woff);
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "GOTHICB";
+  src: url(GOTHICB.ttf),
+          url(GOTHICB.woff);
+  font-style: normal;
+  font-weight: bold;
+}
