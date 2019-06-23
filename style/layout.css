@@ -169,8 +169,7 @@ footer {
 }
 .v-card2 {
   position: relative;
-  right: calc((21vw - var(--container-width)) / 2);
-  --container-width: 149%;
+  right: calc((21vw - var(--container-width)) / 2)
   --container-width: 28%;
   width: 119vw;
   height: 85vw;
@@ -214,6 +213,9 @@ footer {
   padding-left: 5%;
   width: 90vw;
 }
+.large-txt {
+  display: none;
+}
 @media screen and (min-width: 320px;) {
   .card2 {
     height: 410px;
@@ -240,9 +242,9 @@ footer {
   .ink-post img {
     width: 65vw;
   }
-
-
-
+  .mid-txt {
+    display: none
+  }
 
 }
 
@@ -312,8 +314,7 @@ footer {
   .ballon {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
-    --container-width: 90%;
+    --container-width: 104%;
     width: 55vw;
     height: 19vw;
     top: 176px;
@@ -322,8 +323,7 @@ footer {
   .v-card2 {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
-    --container-width: 53%;
+    --container-width: 67%;
     width: 88vw;
     height: 60vw;
     top: 146px;
@@ -334,11 +334,11 @@ footer {
   .blank3 {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
     --container-width: 103%;
-    width: 43vw;
+    width: 42vw;
     height: 41vw;
     top: 42px;
+    padding: 0;
   }
   .right {
     padding-top: 40px;
@@ -363,11 +363,11 @@ footer {
   .ink-post {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
-    --container-width: 79%;
+    --container-width: 90%;
     width: 32vw;
     height: 45vw;
     top: 95px;
+    padding: 0;
   }
   .wall-1 img{
     width: 100vw;
@@ -383,6 +383,9 @@ footer {
   .video-inf p {
     width: 397px;
   }
+  .todo {
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -395,6 +398,9 @@ footer {
   		height: 68px;
   		justify-content: flex-start;
   	}
+  .mid-txt {
+    display: none
+  }
   	.more-nav {
   		display: unset;
   		padding-left: 102px;
@@ -492,7 +498,6 @@ footer {
   .pict {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
     --container-width: 90%;
     width: 55vw;
     height: 48vw;
@@ -504,7 +509,7 @@ footer {
     .ballon {
       position: relative;
       right: calc((100vw - var(--container-width)) / 2);
-      --container-width: 149%;
+
       --container-width: 90%;
       width: 55vw;
       height: 19vw;
@@ -546,7 +551,6 @@ footer {
   .v-card2 {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
     --container-width: 83%;
     width: 80vw;
     height: 55vw;
@@ -570,7 +574,6 @@ footer {
   .ink-post {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
     --container-width: 79%;
     width: 26vw;
     height: 36vw;
@@ -583,7 +586,6 @@ footer {
   .blank3 {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 149%;
     --container-width: 95%;
     width: 47vw;
     height: 41vw;
@@ -617,34 +619,37 @@ footer {
     width:860px;
     height: 515px;
   }
-  /* h2 {
-  left: 4%;
-  font-size: 50px;
-  padding-bottom: 43px;
-  position: relative;
-  display: inline-block;
-  z-index: 3;
-  padding-left: 0.02em;
-  margin-left: 3%;
+  .large-txt {
+    display: unset;
+  }
+}
+/* h2 {
+left: 4%;
+font-size: 50px;
+padding-bottom: 43px;
+position: relative;
+display: inline-block;
+z-index: 3;
+padding-left: 0.02em;
+margin-left: 3%;
 }
 h2:before {
-  content: '';
-  position: absolute;
-  height: 26px;
-  background: #FDE40E;
-  /* top: 50%; */
-}
+content: '';
+position: absolute;
+height: 26px;
+background: #FDE40E;
+/* top: 50%; */
 
-h2:before{
+/* h2:before{
   z-index: -1;
   right: -1.1rem;
-  /* left: 0.1rem; */
+  left: 0.1rem;
   top: 34%;
   padding-left: 1.1rem;
   padding-right: 1.1rem;
   width: 100%;
-  } */
-}
+  }  */
+
 
 
 
