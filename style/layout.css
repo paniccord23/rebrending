@@ -190,6 +190,7 @@ footer {
 .video {
   display: flex;
   justify-content: center;
+  height: 300px;
 }
 .orange {
   position: relative;
@@ -389,6 +390,9 @@ footer {
   }
   .todo {
     width: 350px;
+  }
+  .video {
+    height: 500px;
   }
 }
 
