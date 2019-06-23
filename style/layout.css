@@ -40,13 +40,13 @@ h5 {
 h1 {
   font-family: "impact";
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
   padding-bottom: 4px;
 }
 h2 {
   font-family: "impact";
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   padding-bottom: 3%
 }
 h5 {
@@ -58,18 +58,18 @@ main {
   background-color: #f0f0f0;
 }
 .first {
-  height: 12vw;
-  width: 9vw;
+  height: 21vw;
+  width: 13vw;
 }
 /* высота первого блока */
 .pict {
-    position: relative;
-    right: calc((100vw - var(--container-width)) / 2);
-    --container-width: 98vw;
-    width: 118vw;
-    height: 113vw;
-    top: 36px;
-    margin-bottom: 20px;
+  position: relative;
+  right: calc((100vw - var(--container-width)) / 2);
+  --container-width: 122vw;
+  width: 98vw;
+  height: 96vw;
+  top: 36px;
+  margin-bottom: 20px;
 }
 .left-info {
   padding-top: 10px;
@@ -89,7 +89,7 @@ p {
   font-size: 16px;
   padding-top: 17px;
   padding-bottom: 35px;
-  width: 246px;
+  width: 320px;
 }
 .green {
   background-color: #6BD62E;
@@ -102,6 +102,16 @@ p {
 .line {
   width: 42px;
 }
+.ink-post {
+    padding-left: 23%;
+    width: 84vw;
+}
+/* .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
 .right {
   padding-top: 50px;
   padding-left: 20px;
@@ -112,15 +122,8 @@ p {
 .right-pic {
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 68vw;
+  width: 89vw;
 }
-.bag {
-  display: flex;
-  height: 370px;
-  justify-content: center;
-  align-items: baseline;
-}
-
 .poster {
   width: 70vw;
 }
@@ -141,6 +144,9 @@ p {
 height: 730px;
 padding-left: 20px;
 }
+/* .wall-1 img {
+  width: 100vw;
+} */
 footer {
   background-color: #101010;
   height: 90px;
@@ -165,30 +171,53 @@ footer {
   position: relative;
   right: calc((21vw - var(--container-width)) / 2);
   --container-width: 149%;
-  --container-width: 53%;
-  width: 101vw;
-  height: 74vw;
+  --container-width: 28%;
+  width: 119vw;
+  height: 85vw;
   top: 1px;
 }
-.card2 {
-  height: 950px;
+.logo-it {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-it img {
+  width: 100vw;
+}
+.wall-1 img {
+  width: 100vw;
 }
 .video {
   display: flex;
   justify-content: center;
 }
 .orange {
+  position: relative;
   background-color: #FE5617;
   color: #fff;
+  top: -10px;
 }
 .orange p {
   color: #fff;
 }
 .video iframe {
-  width:860px;
-  height: 515px;
+  width: 100vw;
+  height: 55vw;
+}
+.video-inf {
+  padding-top: 50px;
+  padding-left: 5%;
+  height: 280px;
+}
+.blank3 {
+  padding-left: 5%;
+  width: 90vw;
 }
 @media screen and (min-width: 320px;) {
+  .card2 {
+    height: 410px;
+  }
   .first {
     height: 24vw;
     width: 16vw;
@@ -208,6 +237,13 @@ footer {
       height: 45vw;
       z-index: 2;
   }
+  .ink-post img {
+    width: 65vw;
+  }
+
+
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -350,7 +386,6 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-
   /* navigation */
   nav {
 		height: 68px;
@@ -417,6 +452,16 @@ footer {
     flex-direction: row-reverse;
     height: 650px;
     justify-content: flex-end;
+  }
+  .little-text {
+    display: none;
+  }
+  .card2 {
+    height: 950px;
+  }
+  .first {
+    height: 13vw;
+    width: 9vw;
   }
   .left-info {
     padding-top: 142px;
@@ -502,10 +547,10 @@ footer {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
     --container-width: 149%;
-    --container-width: 53%;
-    width: 88vw;
-    height: 60vw;
-    top: 146px;
+    --container-width: 83%;
+    width: 80vw;
+    height: 55vw;
+    top: 62px;
   }
   .card2 {
     padding-top: 30px;
@@ -530,6 +575,7 @@ footer {
     width: 26vw;
     height: 36vw;
     top: 146px;
+    padding: 0;
   }
   .orange {
     height: 600px;
@@ -538,8 +584,8 @@ footer {
     position: relative;
     right: calc((100vw - var(--container-width)) / 2);
     --container-width: 149%;
-    --container-width: 103%;
-    width: 43vw;
+    --container-width: 95%;
+    width: 47vw;
     height: 41vw;
     top: 42px;
   }
@@ -566,6 +612,10 @@ footer {
   }
   .video-inf p {
     width: 568px;
+  }
+  .video iframe {
+    width:860px;
+    height: 515px;
   }
   /* h2 {
   left: 4%;
